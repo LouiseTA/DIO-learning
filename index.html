@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="'O Nome do Vento' de Patrick Rothfuss">
+    <title>O Nome do Vento | Patrick Rothfuss</title>
+    <style>
+        :root {
+        --primary-color: #0055a5;
+        --background-color: #ffffff;
+        --text-color: #333333;
+        --border-color: #cdcdcd;
+        --accent-background: #f9f9fb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        line-height: 1.6;
+        }
+
+        .logo{
+            display: flex;
+        }
+
+        .titulo {
+            margin: 1rem;
+        }
+
+        ul { list-style: none; padding-left: 5px; }
+
+        a { color:blue; text-decoration: none;}
+
+        .bar {
+            background-color: #f9f9fb;
+            padding:15px;
+            border-top: solid 1px #cdcdcd;
+            border-bottom: solid 1px #cdcdcd;
+        }
+        .content {
+            max-width: 1440px;
+            margin: auto;
+            grid-gap: 3rem;
+            display: grid;
+            gap: 3rem;
+            grid-template-areas: "sidebar main anchors";
+            grid-template-columns: minmax(0,15rem) minmax(0,2.5fr);
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .topico{
+            padding-top: 1rem
+        }
+
+        .footer {
+            min-height: 100px;
+            border-top: solid 1px #cdcdcd;
+        }
+
+        .sidebar {
+            border-right: solid 1px #cdcdcd;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        img{
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div>   
+        <div class="logo">
+            <img is="logo" src="assets/images/o Nome do Vento.jpg" width="250"/>
+            <div class="titulo">
+                <h1 id="livro">O nome do vento</h1>
+                <h2 id="saga">A Crônica do Matador do Rei</h2>
+                <h3>Autor: Patrick Rothfuss</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <div class="sidebar">
+            
+            <nav role="navigation" aria-label="Menu Principal">Menu</nav>
+                <ul class="menu">
+                    <li><a href="#sinopse">Sinopse</a></li>
+                    <li><a href="#magia">A Magia</a></li>
+                    <li><a href="#edicoes">Edições</a></li>
+                    <li><a href="#livro2">O temor do Sábio</a></li>
+                    <li><a href="https://www.patrickrothfuss.com/content/books.html" target="_blank" rel="noopener">Site Oficial</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <section class="main">
+            <section class="topico" aria-labelledby="intro">
+                <h1>O Nome do Vento</h1>
+                    <p>O Nome do Vento é um livro de fantasia escrito pelo norte-americano Patrick Rothfuss, o primeiro da série intitulada A Crônica do Matador do Rei. Publicado no Brasil em 2009, pela Editora Arqueiro.
+                    <p>Como o livro também lida com o tema da magia (Kvothe, o personagem principal, frequenta a Universidade a fim de se tornar um Arcanista), o escritor norte-americano Orson Scott Card comparou o romance à série Harry Potter; porém, mais obscura e madura. O segundo livro da série tem como título O Temor do Sábio, no Brasil, e O Medo do Homem Sábio , em Portugal, e foi lançado em março de 2011 nos Estados Unidos. O título do terceiro volume deverá ser The Doors of Stone (As Portas de Pedra, em tradução livre). Além destes, o autor publicou um spin off chamado The Slow Regard Of Silent Things ( A Música do Silêncio, no Brasil), em 2014, tendo como protagonista a personagem Auri.</p>
+            </section>
+            <section class="topico" aria-labelledby="sinopse">
+                <h1>Sinopse</h2>
+                    <p>Em seu primeiro romance - ambientado em um mundo medieval alternativo - Rothfuss conta história de Kvothe, dono da hospedaria Marco do Percurso - que leva uma vida pacata, em um vilarejo sem grandes agitações. Até o dia em que salva a vida de um cronista durante o ataque noturno de “criaturas sombrias” e o abriga em sua hospedaria. Conhecendo uma misteriosa história sobre Kvothe, o cronista se oferece para escrever uma biografia do estaleiro, que exige então três dias para contá-la e afirma que dirá “nada além da verdade”.</p>
+                    <p>“O Nome Do Vento” corresponde ao primeiro dia desta narrativa, iniciando o leitor na trajetória do jovem Kvothe, um rapaz pertencente a trupe de artistas itinerantes Edema Ruh, que se envolve com um misterioso grupo chamado Chandriano, e passa a perseguir o mesmo tentando compreender a causa e os segredos envolvidos no assassinato.</p>
+                    <p>Além disso, Kvothe narra o início de sua trajetória na Universidade, onde segue o seu sonho de se tornar um grande arcanista e  grande nomeador, enquanto busca informações sobre o perigoso Chandriano, vivendo inúmeras aventuras paralelas.</p>
+            </section>
+            <section class="topico" aria-labelledby="magia">
+                <h1>A magia de Rothfuss</h3>
+                    <p>No universo criado por Patrick Rothfuss, a magia é um aspecto recorrente e se apresenta de variadas formas, como seres fantásticos, e por determinadas “ciências” que apenas fazem sentido neste mundo, como a prática da “simpatia”, “siglística”, “nomeação” e outras mais próximas da nossa realidade como a “ficiaria” (os ártifices e inventores) e a “iátrica” (medicina).</p>
+                    <p>A magia neste livro é muito semelhante a ciência da realidade, por ser regida por regras, técnicas muito específicas e limites estabelecidos pelo estudo e experiências. Este é considerado um dos “pontos altos” de Rothfuss: a criação de uma magia explicada, portanto “possível”, mas com elementos do fantástico.</p>
+            </section>
+            <section class="topico" aria-labelledby="edicoes">
+                <h1>Edições</h3>
+                    <img src="assets/images/capa1.jpg" width="250"/>
+                    <img src="assets/images/capa2.jpg" width="246"/>
+            </section>
+            <section class="topico" aria-labelledby="sequencia">
+                <h3>O Temor do Sábio</h3>
+                    <p>No segundo volume das Crônicas do Matador do Rei, Kvothe continua a narrar sua juventude, dando sequência à sua formação na Universidade, onde enfrenta dificuldades financeiras e conflitos com o nobre Ambrose. Em busca de recursos para manter seus estudos, ele parte para Vintas em busca de um mecenas e acaba salvando o influente Maer Alveron de um envenenamento, conquistando sua confiança. A partir disso, vive diversas aventuras — enfrenta bandidos, encontra a mítica Feluriana e aprende a lutar com os ademrianos. Apesar dos feitos, seu passado como Edena Ruh desperta preconceito, levando à sua expulsão da corte. No entanto, retorna à Universidade com recursos garantidos, enfim alcançando a estabilidade para prosseguir sua jornada.</p>
+                    <img src="assets/images/capa3.jpg" width="250"/>
+            </section>
+        </section>
+    </div>
+
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
