@@ -1,8 +1,12 @@
-# 🚀 Desafios e Projetos DIO
+# 🚀 DIO Challenges & Projects
 
-Este repositório reúne os desafios práticos e projetos realizados durante minha jornada na plataforma [Digital Innovation One (DIO)](https://www.dio.me/), com foco no desenvolvimento de habilidades em programação, tecnologia e inovação.
+This repository contains the challenges and projects I've completed as part of various bootcamps on the [Digital Innovation One (DIO)](https://www.dio.me/) platform.  
+It's focused on practicing and strengthening my skills in **programming, technology, and innovation**.
 
-Aqui organizo as atividades desenvolvidas, facilito a revisão dos conteúdos e compartilho meu progresso com a comunidade.
+I use this space to organize my work, review key concepts, and share my learning journey with the developer community.
 
-### 💼 Bootcamp atual:
+---
+
+## 💼 Current Bootcamp
+
 **Santander Bootcamp 2025 - Front-End**
