@@ -14,8 +14,6 @@ A simple page explaining what HTML is, with examples of commonly used tags such 
 - Lists and tables
 - Sections like `<div>`, `<section>`, `<header>`, `<footer>`
 
-📄 File: `desafio1.html`
-
 ---
 
 ## 📘 Challenge 2 – Book Presentation Page
