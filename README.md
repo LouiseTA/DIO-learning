@@ -10,3 +10,7 @@ I use this space to organize my work, review key concepts, and share my learning
 ## 💼 Current Bootcamp
 
 **Santander Bootcamp 2025 - Front-End**
+
+## 🌐Quick Access
+
+## [HTML+CSS Landing Page](https://diolandingpagechallenge.netlify.app/) to open the page
