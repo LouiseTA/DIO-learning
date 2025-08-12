@@ -13,4 +13,4 @@ I use this space to organize my work, review key concepts, and share my learning
 
 ## 🌐Quick Access
 
-## [HTML+CSS Landing Page](https://diolandingpagechallenge.netlify.app/) to open the page
+- [HTML+CSS Landing Page](https://diolandingpagechallenge.netlify.app/) 
