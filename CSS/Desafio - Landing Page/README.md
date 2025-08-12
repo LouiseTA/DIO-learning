@@ -14,8 +14,7 @@ The challenge focuses on:
 - Implementing fixed background effects with background-attachment
 
 
-## ▶️ How to Open
-Open the index.html file in any modern browser, or use an editor like VS Code with the Live Server extension for a smoother development experience.
+## ▶️ Click [here](https://diolandingpagechallenge.netlify.app/) to open the page
 
 🛠️ Tools Used
 
