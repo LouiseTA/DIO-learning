@@ -27,8 +27,6 @@ The page includes sections for:
 - Sidebar navigation
 - Simple responsive layout using CSS Grid
 
-📄 File: `desafio2.html`
-
 ---
 
 ## ▶️ How to Open
