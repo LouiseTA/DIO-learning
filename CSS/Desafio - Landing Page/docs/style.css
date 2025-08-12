@@ -75,7 +75,7 @@ body {
 }
 
 #transform-world{
-    background-image: src(assets/woman-code.png);
+    background-image: url(assets/woman-code.png);
     background-size: cover;
     height: 500px;
     background-attachment: fixed;
@@ -127,6 +127,7 @@ footer{
 footer p{
     color: white;
 }
+
 
 
 
