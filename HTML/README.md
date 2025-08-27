@@ -29,6 +29,17 @@ The page includes sections for:
 
 ---
 
+🎮 Challenge 3 – Discord Landing Page
+
+A responsive, mobile-first landing page inspired by Discords Landing Page.
+The page includes sections for:
+
+- CSS built with mobile-first approach using Flexbox and Grid for layout adjustments at breakpoints
+- Full-bleed background and centered text that scales across devices
+- Feature blocks with image + text that stack vertically on mobile and shift to a two-column grid on larger screens
+
+---
+
 ## ▶️ How to Open
 
 Just open the `.html` files in any web browser (double-click or open with VS Code + Live Server).
