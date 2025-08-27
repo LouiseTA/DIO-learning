@@ -29,7 +29,7 @@ The page includes sections for:
 
 ---
 
-🎮 Challenge 3 – Discord Landing Page
+## 🎮 Challenge 3 – Discord Landing Page
 
 A responsive, mobile-first landing page inspired by Discords Landing Page.
 The page includes sections for:
