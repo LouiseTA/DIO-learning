@@ -14,6 +14,8 @@ A simple page explaining what HTML is, with examples of commonly used tags such 
 - Lists and tables
 - Sections like `<div>`, `<section>`, `<header>`, `<footer>`
 
+Click [here](https://challenge1-gabrielelouise.netlify.app/) to access
+
 ---
 
 ## 📘 Challenge 2 – Book Presentation Page
@@ -27,6 +29,8 @@ The page includes sections for:
 - Sidebar navigation
 - Simple responsive layout using CSS Grid
 
+Click [here](https://challenge2-gabrielelouise.netlify.app/) to access
+
 ---
 
 ## 🎨 Challenge 3 - First Landing Page with HTML & CSS
@@ -38,6 +42,8 @@ A basic CSS challenge, aiming to style a simple landing page using:
 - External stylesheets
 - Responsive layout
 - Gradient text using background-clip
+
+Click [here](https://challenge3-gabrielelouise.netlify.app/) to access
 
 ---
 
@@ -51,21 +57,11 @@ The page includes sections for:
 - Full-bleed background and text that scales across devices
 - Feature blocks with image + text that stack vertically on mobile and shift to a two-column grid on larger screens
 
----
-
-## ▶️ How to Open
-
-Just open the `.html` files in any web browser (double-click or open with VS Code + Live Server).
+Click [here](https://challenge4-gabrielelouise.netlify.app/) to access
 
 ---
 
 ## 🛠️ Tools Used
 
 - HTML5  
-- CSS3 (inline style in Challenge 2)
-
----
-
-## 📌 Bootcamp
-
-These projects were created during the **Santander Bootcamp 2025 - Front-End** on the DIO platform.
+- CSS3
