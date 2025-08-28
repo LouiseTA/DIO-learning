@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Dasafio JS - Classificador de Herói</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="card">
+        <h1>Classificador de Herói por XP</h1>
+
+        <label for="name">Nome do Herói</label>
+        <input id="name" type="text" placeholder="Ex: Valente" />
+
+        <label for="xp">XP do Herói</label>
+        <input id="xp" type="number" placeholder="Ex: 3450" />
+
+        <button id="btn">Classificar</button>
+
+        <div class="result" id="output">Resultado aparecerá aqui.</div>
+    </main>
+
+    <script>
+        // Variáveis iniciais
+        let heroName = 'Valente';
+        let heroXP = 3450;
+
+        // Função que determina a liga com base no XP
+        function getLeague(xp) {
+            if (xp < 1000) return 'Liga de Ferro';
+            if (xp >= 1000 && xp <= 1999) return 'Liga de Bronze';
+            if (xp >= 2000 && xp <= 4999) return 'Liga de Prata';
+            if (xp >= 5000 && xp <= 6999) return 'Liga de Ouro';
+            if (xp >= 7000 && xp <= 7999) return 'Liga de Platina';
+            if (xp >= 8000 && xp <= 8999) return 'Liga Ascendente';
+            if (xp >= 9000 && xp <= 9999) return 'Liga Imortal';
+            if (xp >= 10000) return 'Liga Lendário';
+            return 'XP inválido';
+        }
+
+        // Mensagem final
+        function formatMessage(name, league) {
+            return `O Herói ${name} está classificado na ${league}`;
+        }
+
+        // Atualiza a área de resultado na página
+        function showResult(name, xp) {
+            const league = getLeague(Number(xp));
+            const out = document.getElementById('output');
+            out.textContent = formatMessage(name, league);
+        }
+
+        // Conecta inputs à página e define comportamento do botão
+        const nameInput = document.getElementById('name');
+        const xpInput = document.getElementById('xp');
+        const btn = document.getElementById('btn');
+
+        // Preenche inputs com as variáveis iniciais
+        nameInput.value = heroName;
+        xpInput.value = heroXP;
+
+        // Ao clicar, usa os valores dos inputs ou as variáveis se estiverem vazios
+        btn.addEventListener('click', () => {
+            const name = nameInput.value.trim() || heroName;
+            const xp = xpInput.value === '' ? heroXP : Number(xpInput.value);
+            showResult(name, xp);
+        });
+
+        // Exibe resultado inicial automatico
+        showResult(heroName, heroXP);
+    </script>
+</body>
+
+</html>
