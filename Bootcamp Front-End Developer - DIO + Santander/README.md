@@ -61,6 +61,19 @@ Click [here](https://challenge4-gabrielelouise.netlify.app/) to access
 
 ---
 
+## 🎯 Challenge 5 – Hero Rank Classifier
+
+A small interactive page that classifies a hero into a league based on their XP.
+
+- Inputs for name and XP.
+- JavaScript if / else if logic covering all XP ranges requested.
+- Final classification message.
+- Simple mobile-first responsive layout.
+  
+Click [here](https://challenge5-gabrielelouise.netlify.app/) to access
+
+---
+
 ## 🛠️ Tools Used
 
 - HTML5  
