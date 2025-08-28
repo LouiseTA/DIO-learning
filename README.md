@@ -13,4 +13,10 @@ I use this space to organize my work, review key concepts, and share my learning
 
 ## 🌐Quick Access
 
-- [HTML+CSS Landing Page](https://diolandingpagechallenge.netlify.app/) 
+### Front-End Developer - Santader + DIO
+
+- [Basic HTML Page](https://challenge1-gabrielelouise.netlify.app/)
+- [Book Presentation Page](https://challenge2-gabrielelouise.netlify.app/)
+- [First Landing Page with HTML & CSS](https://challenge3-gabrielelouise.netlify.app/)
+- [Discord Landing Page](https://challenge4-gabrielelouise.netlify.app/)
+- [Hero Rank Classifier](https://challenge5-gabrielelouise.netlify.app/)
